@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+</head>
+
+<body>
+    <h1>簡易結帳_V1</h1>
+
+    <div>
+        <label for="MoneyVal_1">前錶_金額</label>
+        <input id="MoneyVal_1" name="MV_1" placeholder="輸入前錶金額" type="number" class="qty">
+        <label for="TicketVal_1">前錶_票</label>
+        <input id="TicketVal_1" name="TV_1" placeholder="輸入前錶票額" type="number" class="qty">
+    </div>
+    <br>
+    <div>
+        <label for="MoneyVal_2">後錶_金額</label>
+        <input id="MoneyVal_2" name="MV_2" placeholder="輸入後錶金額" type="number" class="qty">
+        <label for="TicketVal_2">後錶_票</label>
+        <input id="TicketVal_2" name="TV_2" placeholder="輸入後錶票額" type="number" class="qty">
+    </div>    
+    <br>
+    <div>
+        <label for="LastVal">尾票_金額</label>
+        <input id="LastVal" placeholder="輸入尾票金額" type="number" class="qty">
+
+    </div>
+    <br>
+    <div>
+        <label for="LastProfit">上次餘額</label>
+        <input id="LastProfit" placeholder="輸入上次餘額" type="number" class="qty">
+
+    </div>
+    <br>
+    <div>
+        <h2>結算金額</h2>
+        <h3>幣：<span id="MoneyDiff"></span></h3>
+        <h3>票：<span id="TicketDiff"></span></h3>
+        <h3>水：<span id="WaterVal"></span></h3>
+        <h3>尾：<span id="LVal"></span></h3>
+        <h3>餘：<span id="LP"></span><span id="ProfitVal"></span><span id="FinalP"></span></h3>
+        <!--<h3>幣：<input id="MoneyDiff" type="number" readonly value="0"></h3>
+        <h3>票：<input id="TicketDiff" type="number" readonly value="0"></h3>
+        <h3>水：<input id="WaterVal" type="number" readonly value="0"></h3>
+        <h3>尾：<input id="LVal" type="number" readonly value="0"></h3>
+        <h3>餘：<input id="ProfitVal" type="number" readonly value="0"></h3>-->
+    </div>    
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
