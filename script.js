@@ -12,7 +12,7 @@ function calculateTotal()
   $("#MoneyDiff").text(Cal_Value.Mdif);
   Cal_Value.Tdif = (($("#TicketVal_2").val()-$("#TicketVal_1").val())*10);
   $("#TicketDiff").text(Cal_Value.Tdif);
-  Cal_Value.Wval = (Math.ceil(Cal_Value.Mdif*0.05));
+  Cal_Value.Wval = (Math.ceil(Cal_Value.Tdif*0.05));
   $("#WaterVal").text(Cal_Value.Wval);
   Cal_Value.Lval = ($("#LastVal").val());
   $("#LVal").text(Cal_Value.Lval);
